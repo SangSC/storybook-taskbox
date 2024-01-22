@@ -1,0 +1,60 @@
+yarn run v1.22.19
+warning ../../../package.json: No license field
+$ storybook build --output-dir /var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV
+@storybook/cli v7.6.6
+
+info => Cleaning outputDir: /var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV
+info => Loading presets
+WARN Could not resolve addon "@storybook/preset-create-react-app", skipping. Is it installed?
+WARN Could not resolve addon "@storybook/preset-create-react-app", skipping. Is it installed?
+info => Building manager..
+info => Manager built (66 ms)
+info => Building preview..
+info => Copying static files: /Users/simonsang/Desktop/Projects/taskbox/node_modules/@storybook/manager/static at /var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/sb-common-assets
+vite v4.5.1 building for production...
+
+./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+node_modules/telejson/dist/index.mjs (1413:15) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+node_modules/telejson/dist/index.mjs (1416:18) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 557 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/iframe.html                                     12.57 kB │ gzip:   3.58 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/percolate-dac75269.ttf                   34.04 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/percolate-ec979d96.woff                  34.11 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/percolate-5ed633c2.eot                   34.21 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/percolate-d13fa91b.svg                  140.51 kB │ gzip:  46.93 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-dd25d82c.css                      6.87 kB │ gzip:   2.05 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-25c7db9f.js                       0.15 kB │ gzip:   0.15 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/WithTooltip-V3YHNWJZ-08790ab3.js          0.35 kB │ gzip:   0.23 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/syntaxhighlighter-V7JZZA35-49d589fd.js    0.36 kB │ gzip:   0.25 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-23603a0a.js                       0.44 kB │ gzip:   0.29 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/index-918a6aab.js                         0.54 kB │ gzip:   0.32 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-73104b77.js                       0.64 kB │ gzip:   0.45 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/index-356e4a49.js                         0.77 kB │ gzip:   0.47 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-0ef86afd.js                       0.86 kB │ gzip:   0.55 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/entry-preview-a707eab6.js                 1.08 kB │ gzip:   0.63 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/Task.stories-91b53755.js                  2.19 kB │ gzip:   1.08 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/index-11d98b33.js                         2.59 kB │ gzip:   1.26 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-30b54f76.js                       3.21 kB │ gzip:   1.37 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/iframe-414785fa.js                        3.61 kB │ gzip:   1.48 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-d01b88e8.js                       5.23 kB │ gzip:   2.41 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-da31036b.js                       7.62 kB │ gzip:   1.55 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/index-1b03fe98.js                         7.80 kB │ gzip:   3.07 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/preview-c56bf6ac.js                       8.28 kB │ gzip:   3.17 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/Color-6VNJS4EI-6f78e84f.js               30.96 kB │ gzip:  11.71 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/_getPrototype-f54012e6.js                78.39 kB │ gzip:  23.53 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/react-18-ecdfa573.js                    134.51 kB │ gzip:  43.43 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/entry-preview-docs-3df697ea.js          213.07 kB │ gzip:  66.80 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/DocsRenderer-NNNQARDV-4364e620.js       536.99 kB │ gzip: 175.69 kB
+../../../../../var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV/assets/formatter-SWP5E3XI-9669f540.js          601.55 kB │ gzip: 186.20 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.32s
+info => Preview built (2.56 s)
+info => Output directory: /var/folders/zg/zyln9_453dqb5v0wffpl55s80000gn/T/chromatic--96736-XIejvvlgi8DV
+Done in 4.32s.
